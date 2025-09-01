@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Instalar dependencias de Node.js
+npm install
+
+# Construir assets de Vue
+npm run build
+
 # Generar clave de aplicación si no existe
 php artisan key:generate --force
 
